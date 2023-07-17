@@ -1,0 +1,165 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	scroll-behavior: smooth;
+}
+
+main {
+	scroll-behavior: smooth;
+
+}
+body{
+	background: url(https://img.freepik.com/free-vector/halftone-background-with-waves_23-2148907690.jpg?w=996&t=st=1689234477~exp=1689235077~hmac=74b07ad24667a4ec6408c593d0e069f5523823baa7a14932600ad719d78d8101);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+#about-caption-1, #about-caption-2 {
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+#landing-header-1, #about-header-1, #project-header-1, #tools-header-1, #tools-header-2,  #tools-header-3, #contact-header-1{
+	color: #ff9f1c;
+	text-transform: uppercase;
+}
+
+#landing-header-1 {
+	font-size: 5vh;
+}
+
+
+
+#about-section {
+	background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+	color: dimgray;
+	border-radius: 25px;
+
+}
+
+#project-section {
+	background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+	color: dimgray;
+	border-radius: 25px;
+}
+
+#landing-section {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+	color: dimgray;
+	border-radius: 25px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#tools-section {
+	background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+	color: dimgray;
+	border-radius: 25px;
+}
+
+#contact-section {
+	background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+	color: dimgray;
+	border-radius: 25px;
+}
+
+#frontend-tools-holder, #other-tools-holder, #backend-tools-holder {
+	border-radius: 10px;
+	margin-bottom: 5rem;
+	margin-top: 5rem;
+}
+
+#form-col {
+	border-radius: 10px;
+	background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+
+#nav-bar {
+	padding: 5px;
+	border-radius: 25px;
+	background: rgba(255, 255, 255, 0.2);
+	font-family: 'Montserrat', sans-serif;
+
+
+}	
+	
+
+#landing-caption-1 {
+ color: #fdf0d5;
+ font-family: 'Victor Mono', monospace;
+ text-transform: uppercase;
+
+}
+
+
+#landing-image-1  {
+  margin-left:2rem;
+  
+}
+
+#about-image-1 {
+	margin-left: 1.2rem;
+}
+
+#card-1, #card-2, #card-3 {
+	width: 18rem;
+	border-radius: 10px;
+}
+
+#project-image-1, #project-image-2, #project-image-3 {
+	border-radius: 1rem;
+	padding-top: 10px;
+}
+
+
+#about-row-1, #project-row-1 {
+	padding-top: 2rem;
+}
+
+#project-header-1 {
+	padding-top: 2rem;
+}
+
+#contact-header-1 {
+	padding-top: 2rem;
+}
+
+#btn-1 {
+	border-radius: 10px;
+  padding: 10px;
+}
+
+#footer-1 {
+	padding: 5px;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.2);
+	font-family: 'Montserrat', sans-serif;
+
+
+
+}	
+
+.mapouter {
+					position: relative;
+					text-align: right;
+					width: 100%;
+					height: 21.875rem;
+}
+
+.gmap_canvas {
+					overflow: hidden;
+					background: none !important;
+					width: 100%;
+					height: 21.875rem;
+}
+
+.gmap_iframe {
+					height: 21.875rem !important;
+}
+
+#col-1-maps {
+	padding-top: 5rem;
+}
